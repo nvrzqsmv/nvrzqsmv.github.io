@@ -736,36 +736,6 @@
     </div>
   </footer>
 
-$isim=$_POST['isim'];
-$soyad=$_POST['soyad'];
-$mail=$_POST['mail'];
-$yorum=$_POST['yorum'];
-$ziyaret=$_POST['ziyaret'];
-
-$emailadresi="kendi email"; //kendi e-mail adresinizi yazin.
-$emailkonusu="Site iletisim Formu"; //gönderilen e-mailde konu olarak ne görünmesiniz istiyorsaniz buraya onu yazin.
-
-//bos alanlari kontrol ediyoruz..
-if (empty($isim) or empty($soyad) or empty($mail) or empty($yorum)){ //burayi kendinize göre çogaltabilirsiniz - Hasanbalta
-print ('Lütfen bütün alanlari eksiksiz olarak doldurunuz.
-'); //eger bos alan var ise gerekli uyari mesaji. - Hasanbalta
-print('mesaj Sayfasina Geri Dön'); //form sayfasina geri dönüs linki - Hasanbalta
-}
-
-//bos alan yok ise asagidan da e-mail gönderilecektir.
-else {
-$emailicerigi="
-isim: $isim
-Soyad: $soyad
-E-Mail: $mail
-Yorum: $yorum
-Ziyaret: $ziyaret";
-if(mail($emailadresi,$emailkonusu,$emailicerigi)){
-print ('E-Mailiniz basarili bir sekilde gönderilmistir. ilginize tesekkür ederiz...!!! Anasayfaya Geri Dön'); //bu uyari yazisida mail gönderildiginde çikacaktir..
-}
-}
-
-?>
 
 
 
