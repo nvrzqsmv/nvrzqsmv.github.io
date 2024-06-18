@@ -20,9 +20,9 @@ Contact
 info@email.com
 00 (123) 456 78 90
 
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-dribbble"></ion-icon>
+<ion-icon name="logo-linkedin"></ion-icon>
+<ion-icon name="whatsapp"></ion-icon>
+<ion-icon name="logo-behance"></ion-icon>
 <ion-icon name="logo-instagram"></ion-icon>
 <ion-icon name="logo-youtube"></ion-icon>
 
@@ -62,8 +62,8 @@ What We Do?
 The service we offer is specifically designed to meet your needs.
 
 <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-24/7 Support
-Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.
+24/7 dəstək
+Günün istənilən vaxtı aktiv texniki dəstək.
 
 Learn More
 <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
