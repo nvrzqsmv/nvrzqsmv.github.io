@@ -468,7 +468,7 @@ body.nav-active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.hero .slider-btn:is(:hover, :focus-visible) { background-color: var(#ff0044); }
+.hero .slider-btn:is(:hover, :focus-visible) { background-color: var(--blue); }
 
 .hero .slider-btn.prev { left: 20px; }
 
