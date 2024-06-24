@@ -122,21 +122,21 @@
     <article>
       <section class="section services" aria-labelledby="services-label" style="background-image: url('./assets/images/hero-bg.jpg'); background-size: cover;">
         <div class="container">
-          <h2 class="h2 section-title" id="services-label" style="margin-top: 100px; color: white;">Xidmətlərim</h2>
-          <div class="service-info" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; margin-bottom: 30px;">
-            <div class="service-item">
+          <h2 class="h2 section-title" id="services-label" style="margin-top: 100px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Xidmətlərim</h2>
+          <div class="services-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px;">
+            <div class="service-item" style="background-color: white; padding: 20px; border-radius: 10px; text-align: center;">
               <img src="./assets/images/service1.jpg" alt="Service 1" style="width: 100%; border-radius: 10px;">
               <p style="margin-top: 10px;">Xidmət 1 haqqında açıqlama.</p>
             </div>
-            <div class="service-item">
+            <div class="service-item" style="background-color: white; padding: 20px; border-radius: 10px; text-align: center;">
               <img src="./assets/images/service2.jpg" alt="Service 2" style="width: 100%; border-radius: 10px;">
               <p style="margin-top: 10px;">Xidmət 2 haqqında açıqlama.</p>
             </div>
-            <div class="service-item">
+            <div class="service-item" style="background-color: white; padding: 20px; border-radius: 10px; text-align: center;">
               <img src="./assets/images/service3.jpg" alt="Service 3" style="width: 100%; border-radius: 10px;">
               <p style="margin-top: 10px;">Xidmət 3 haqqında açıqlama.</p>
             </div>
-            <div class="service-item">
+            <div class="service-item" style="background-color: white; padding: 20px; border-radius: 10px; text-align: center;">
               <img src="./assets/images/service4.jpg" alt="Service 4" style="width: 100%; border-radius: 10px;">
               <p style="margin-top: 10px;">Xidmət 4 haqqında açıqlama.</p>
             </div>
@@ -201,13 +201,4 @@
   <script>
     // JavaScript to keep header fixed at the top
     window.addEventListener('scroll', function () {
-      const header = document.querySelector('.header');
-      header.classList.toggle('active', window.scrollY > 0);
-    });
-  </script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
-</html>
+      const header =
