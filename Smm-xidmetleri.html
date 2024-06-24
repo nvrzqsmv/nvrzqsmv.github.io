@@ -108,24 +108,28 @@
 
   <main>
     <article>
-      <section class="section contact" aria-labelledby="contact-label">
+      <section class="section contact" aria-labelledby="contact-label" style="background-image: url('./assets/images/hero-bg.jpg'); background-size: cover;">
         <div class="container">
-          <h2 class="h2 section-title" id="contact-label">Əlaqə</h2>
-          <p>Email: <a href="mailto:noqa945@gmail.com">noqa945@gmail.com</a></p>
-          <p>Telefon: <a href="tel:+994553398667">+994553398667</a></p>
-          <p>Instagram: <a href="https://instagram.com/novruzdigital">@novruzdigital</a></p>
-          
-          <form action="mailto:noqa945@gmail.com" method="post" enctype="text/plain">
-            <label for="name">Ad Soyad:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="phone">Telefon Nömrəsi:</label>
-            <input type="tel" id="phone" name="phone" required>
-            
-            <label for="message">Mesajınız:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            
-            <input type="submit" value="Göndər">
+          <h2 class="h2 section-title" id="contact-label" style="margin-top: 100px; color: white;">Əlaqə</h2>
+          <div class="contact-info" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; margin-bottom: 30px;">
+            <p>Email: <a href="mailto:noqa945@gmail.com">noqa945@gmail.com</a></p>
+            <p>Telefon: <a href="tel:+994553398667">+994553398667</a></p>
+            <p>Instagram: <a href="https://instagram.com/novruzdigital">@novruzdigital</a></p>
+          </div>
+          <form action="mailto:noqa945@gmail.com" method="post" enctype="text/plain" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px;">
+            <div style="margin-bottom: 15px;">
+              <label for="name" style="display: block; margin-bottom: 5px;">Ad Soyad:</label>
+              <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+            </div>
+            <div style="margin-bottom: 15px;">
+              <label for="phone" style="display: block; margin-bottom: 5px;">Telefon Nömrəsi:</label>
+              <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+            </div>
+            <div style="margin-bottom: 15px;">
+              <label for="message" style="display: block; margin-bottom: 5px;">Mesajınız:</label>
+              <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;"></textarea>
+            </div>
+            <input type="submit" value="Göndər" style="background-color: #0000ff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
           </form>
         </div>
       </section>
@@ -178,42 +182,4 @@
           <a href="mailto:noqa945@gmail.com" class="footer-link">noqa945@gmail.com</a>
         </li>
         <li>
-          <a href="tel:+994553398667" class="footer-link">+994553398667</a>
-        </li>
-      </ul>
-      <ul class="footer-list">
-        <li>
-          <p class="h4 footer-list-title">Learn More</p>
-        </li>
-        <li>
-          <a href="#" class="footer-link">About Us</a>
-        </li>
-        <li>
-          <a href="#" class="footer-link">Our Story</a>
-        </li>
-        <li>
-          <a href="#" class="footer-link">Projects</a>
-        </li>
-        <li>
-          <a href="#" class="footer-link">Terms of Use</a>
-        </li>
-        <li>
-          <a href="#" class="footer-link">Privacy Policy</a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-  <!-- 
-    - ionicon
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
-</html>
+          <a href="tel:+994553398667" class="footer-link
