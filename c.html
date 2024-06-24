@@ -45,6 +45,34 @@
       border-radius: 10px;
       text-align: center;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .service-item p {
+      margin-top: 10px;
+      transition: all 0.3s;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      width: 90%;
+      text-align: center;
+      pointer-events: none;
+    }
+
+    .service-item:hover p {
+      opacity: 1;
     }
 
     .header {
@@ -222,29 +250,16 @@
           <h2 class="h2 section-title" id="services-label" style="margin-top: 100px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Xidmətlərim</h2>
           <div class="services-grid">
             <div class="service-item">
-              <img src="./assets/images/service1.jpg" alt="Service 1" style="width: 100%; border-radius: 10px;">
-              <p style="margin-top: 10px;">Xidmət 1 haqqında açıqlama.</p>
+              <img src="./assets/images/service1.jpg" alt="Service 1">
+              <p>Xidmət 1 haqqında açıqlama.</p>
             </div>
             <div class="service-item">
-              <img src="./assets/images/service2.jpg" alt="Service 2" style="width: 100%; border-radius: 10px;">
-              <p style="margin-top: 10px;">Xidmət 2 haqqında açıqlama.</p>
+              <img src="./assets/images/service2.jpg" alt="Service 2">
+              <p>Xidmət 2 haqqında açıqlama.</p>
             </div>
             <div class="service-item">
-              <img src="./assets/images/service3.jpg" alt="Service 3" style="width: 100%; border-radius: 10px;">
-              <p style="margin-top: 10px;">Xidmət 3 haqqında açıqlama.</p>
+              <img src="./assets/images/service3.jpg" alt="Service 3">
+              <p>Xidmət 3 haqqında açıqlama.</p>
             </div>
             <div class="service-item">
-              <img src="./assets/images/service4.jpg" alt="Service 4" style="width: 100%; border-radius: 10px;">
-              <p style="margin-top: 10px;">Xidmət 4 haqqında açıqlama.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </article>
-  </main>
-
-  <footer class="footer">
-    <div class="container grid-list">
-      <div class="footer-brand">
-        <a href="#" class="logo">
-          <img src="./
+              <img src="./assets/images/service4.jpg"
